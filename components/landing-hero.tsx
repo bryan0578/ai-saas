@@ -7,6 +7,7 @@ import { useAuth } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 
 export const LandingHero = () => {
+    
   const { isSignedIn } = useAuth();
 
   return (
